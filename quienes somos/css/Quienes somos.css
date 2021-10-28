@@ -87,14 +87,14 @@ footer{
 }
 
 .content-foo h4{
-    color: #fff;
+    color: black;
     border-bottom: 3px solid #b99e00;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 .content-foo p{
-    color: #ccc;
+    color: black;
 }
 
 .titulo-final{
