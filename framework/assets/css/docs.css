@@ -177,7 +177,7 @@ element.style {
 /* footer */
 
 footer{
-    background: #dee6df;
+    background: #6d8388;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -189,7 +189,7 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #eaeaea;
 }
 
 .content-foo{
@@ -198,7 +198,8 @@ footer{
 
 .content-foo h4{
     color: black;
-    border-bottom: 3px solid #b99e00;
+    font-size: 18px;
+    border-bottom: 3px solid #eaeaea;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -211,5 +212,5 @@ footer{
     text-align: center;
     font-size: 14px;
     margin: 20px 0 0 0;
-    color: #9e9797;
+    color: #eaeaea;
 }

@@ -106,15 +106,11 @@ footer{
 
 
 
-
-
+    /*main */
 main{
-
-    /*fondo de la pagina */
     background-image: url(../../fotografias/ilustracion.png);
     width: 60%;
-  
-   }
+}
 .Parrafo-main{
 color: #000000;
 }
