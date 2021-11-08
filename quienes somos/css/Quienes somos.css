@@ -18,6 +18,7 @@ header {
     position: relative;
 }
 
+
 nav{
     text-align: right;
     padding: 5vh, 5vh 0 0;
@@ -51,7 +52,6 @@ header .textos-header{
     font-size: 10vh;
     color:#000000;
     font-family: 'Baskerville';
-
 }
 
 .textos-header h2{
@@ -66,8 +66,8 @@ header .textos-header{
 
    /* footer */
 
-footer{
-    background: #414141;
+   footer{
+    background: #6d8388;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -79,7 +79,7 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #eaeaea;
 }
 
 .content-foo{
@@ -88,7 +88,8 @@ footer{
 
 .content-foo h4{
     color: black;
-    border-bottom: 3px solid #b99e00;
+    font-size: 18px;
+    border-bottom: 3px solid #eaeaea;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -101,16 +102,5 @@ footer{
     text-align: center;
     font-size: 14px;
     margin: 20px 0 0 0;
-    color: #9e9797;
-}
-
-
-
-    /*main */
-main{
-    background-image: url(../../fotografias/ilustracion.png);
-    width: 60%;
-}
-.Parrafo-main{
-color: #000000;
+    color: #eaeaea;
 }

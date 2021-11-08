@@ -17,6 +17,7 @@ header {
     height: 600px;
 }
 
+
 nav{
     text-align: right;
     padding: 5vh, 5vh 0 0;
@@ -65,7 +66,7 @@ header .textos-header{
 /* footer */
 
 footer{
-    background: #414141;
+    background: #6d8388;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -77,7 +78,7 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #eaeaea;
 }
 
 .content-foo{
@@ -85,19 +86,20 @@ footer{
 }
 
 .content-foo h4{
-    color: #fff;
-    border-bottom: 3px solid #b99e00;
+    color: black;
+    font-size: 18px;
+    border-bottom: 3px solid #eaeaea;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 .content-foo p{
-    color: #ccc;
+    color: black;
 }
 
 .titulo-final{
     text-align: center;
     font-size: 14px;
     margin: 20px 0 0 0;
-    color: #9e9797;
+    color: #eaeaea;
 }
