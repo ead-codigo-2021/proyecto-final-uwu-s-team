@@ -75,6 +75,7 @@ font-size: 40px;
 text-align: center;
 padding: 10px 10px;
 font-family:  'Baskerville';
+
  }
 .texto{
     padding: 20px 0;
@@ -109,7 +110,7 @@ textarea{
 }
 #boton{
     background: rgba(206, 169, 135, 0.945);
-    color: black;
+    color: 373838;
     padding: 20px;
 }
 #boton:hover{
@@ -121,7 +122,7 @@ textarea{
 /* footer */
 
 footer{
-    background: #6d8388;
+    background: #b2c9b5;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -141,7 +142,7 @@ footer{
 }
 
 .content-foo h4{
-    color: black;
+    color: #373838 ;
     font-size: 18px;
     border-bottom: 3px solid #eaeaea;
     padding-bottom: 5px;
@@ -149,12 +150,12 @@ footer{
 }
 
 .content-foo p{
-    color: black;
+    color: #373838 ;
 }
 
 .titulo-final{
     text-align: center;
     font-size: 14px;
     margin: 20px 0 0 0;
-    color: #eaeaea;
+    color: #f7f4f0;
 }
