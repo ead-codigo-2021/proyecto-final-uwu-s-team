@@ -90,89 +90,45 @@ header .textos-header{
  }
 
 
-
+ 
 /* productos destacados */ 
+.slider-frame {
+    width: 800px;
+    height: auto;
+    margin:50px auto 0;
+    overflow: hidden;
+}
 
-.featured_products.product-slider {
-    padding-bottom: 0;
-}
-div.container {
-    margin: 0 auto;
-    padding: 20px 0;
-}
-.container {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
+.slider-frame ul {
+    display: flex;
     padding: 0;
-}
-* {
-    -moz-box-sizing: border-box;
-    /* -webkit-box-sizing: border-box; */
-    /* box-sizing: border-box; */
-}
-user agent stylesheet
-div {
-    display: block;
-}
-.notificationPreview-box *, ::after, ::before {
-    /* box-sizing: border-box; */
-}
-.container:after {
-    content: "\0020";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-.notificationPreview-box *, ::after, ::before {
-    /* box-sizing: border-box; */
-}
-::selection {
-    background: #fff7b6;
-    color: #000;
+    width: 400%;
+
+    animation: slide 20s infinite alternate ease-in-out;
 }
 
-.featured_products.product-slider .columns {
-    padding-bottom: 0;
-}
-.container .sixteen.columns {
-    width: 1180px;
-}
-.column, .columns {
-    float: left;
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-    box-sizing: content-box;
-}
-.center {
-    text-align: center;
-}
-* {
-    -moz-box-sizing: border-box;
-    /* -webkit-box-sizing: border-box; */
-    /* box-sizing: border-box; */
-}
-user agent stylesheet
-div {
-    display: block;
-}
-.notificationPreview-box *, ::after, ::before {
-    /* box-sizing: border-box; */
-}
-.notificationPreview-box *, ::after, ::before {
-    /* box-sizing: border-box; */
-}
-::selection {
-    background: #fff7b6;
-    color: #000;
+.slider-frame li {
+    width: 100%;
+    list-style: none;
 }
 
-element.style {
-    max-width: 800px;
+.slider-frame img {
+    width: 100%;
 }
 
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
 
 /* footer */
 
