@@ -6,10 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/Contacto.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
     
     <header class="site-neader">
+        <div class="top-header">
+            <div class="containerr">
+                <p>
+                    <i class="fa fa-phone" > 
+                    </i>
+                    +56932175978| 
+                    <i class="fa fa-envelope"> 
+                     coffeetime@gmail.com |
+                    </i>
+                    <i class="fa fa-home">
+                     Manuel Antonio Matta 12, Viña del Mar, Valparaíso
+                    </i>
+                </p>
+    
+    
+            </div>
         <nav class="site-navigation">
           <a href="../framework/index.html"><strong>Inicio</strong></a>
           <a href="../quienes somos/index.html"><strong>Quienes somos</strong></a>
@@ -22,17 +40,23 @@
         </section>
     </header>
     <main>
-        <form action=" enviar.php" method="post">
-            <h3>¡Contáctanos!</h3>
+    
+        <div class="container">
+            <div class="contact-box">
+               <div class="left"></div>
+                <div class="right">
+                    <h3>¡Contáctanos!</h3>
             <p class="texto">Si deseas hacer alguna pregunta, reclamo o sugerencia ingresa tus datos y nos comunicaremos a la brevedad.</p>
             <p class="horario"> <strong>Horario de atención: Lunes a Viernes 9:00 - 20:00</strong></p>
-            <input type= "text" name="Nombre" placeholder= "Nombre" required> 
-            <input  type= "text" name="Correo" placeholder= "Correo" required>
-            <input  type= "text" name="Telefono" placeholder= "Teléfono" required> 
-            <textarea name="mensaje" placeholder=" Escriba aquí su mensajes" required></textarea>
-            <input type="submit" value="ENVIAR" id="boton">
-        </form>
-           
+                    <input type="text" class="field" placeholder="Nombre" required>
+                    <input type="email" class="field"  placeholder="Email" required>
+                    <input type="text" class="field" placeholder="Teléfono" required>
+                    <textarea class="field" placeholder="Mensaje" required></textarea>
+                    <button class="btn">Enviar</button>
+                </div>
+            </div>
+         </div>
+         
     </main>
 
 
