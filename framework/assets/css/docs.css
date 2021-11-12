@@ -5,6 +5,7 @@
     
 }
 body{
+    font-family: 'Baskerville';
     font-family: 'Lato', sans-serif;
     background-color: #f7f4f0;
 }
@@ -14,7 +15,7 @@ nav{
     width: 100%;
 }
 
- /* telefono*/
+ /*barra de informacion*/
 
 .top-header{
     background: #6d8388;
@@ -26,9 +27,9 @@ nav{
     font-family: 'Lato', sans-serif;
 }
 
-.container{
+.containerr{
     font-family: 'Lato', sans-serif;
-   margin-left: 60px;
+   margin-left:  10px;
 
 }
  .fa {
@@ -37,12 +38,6 @@ nav{
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-}
-
-body{
-    font-family: 'Baskerville';
-    font-family: 'lato';
-    background-color: #f7f4f0;
 }
 
 .contenedor{
@@ -119,21 +114,56 @@ header .textos-header{
 .textos-header h2{
 
     font-size: 20px;
-    color: #69645c;
+    color: #373838 ;
     padding: 30px 0 0px 0;
     font-family: 'lato';
  }
 
 
- 
+ /**/
+ .contenedor{
+    background-color: #daae96;
+    width:60%;
+    margin-top: 60px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    height: auto;
+ }
+ h4{
+     font-family: 'Baskerville';
+     font-size: 30px;
+     padding: 0 0 20px 0;
+ }
+ .caja-titulo{
+   height: 0px;
+ }
+ .caja{
+    padding: 15px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    align-items: center;
+ }
+
+.caja article{
+        font-family: 'lato';
+        font-size: auto;
+        padding: 10px;
+        align-items: center;
+}
+article img {
+ width: auto;
+    height: 80%;
+
+}
+
 /* productos destacados */ 
 h3{
-    color: 373838;
+    color: #373838;
     font-size: 100px;
     font-family: 'Baskerville';
 }
 .slider-frame {
-    width: 800px;
+    width: 60vw;
     height: auto;
     margin:50px auto 0;
     overflow: hidden;
@@ -170,7 +200,47 @@ h3{
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
+/*opinines*/
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0 40px 0;
+}
 
+.cards .card{
+    background: #6d8388;
+    display: flex;
+    width: 30%;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0 ,0, 0.6);
+    padding: 10px;
+}
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+    font-family: 'Baskerville';
+    font-size: 25px;
+}
+
+.cards .card .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+    font-family: 'lato';
+    font-size: 20px;
+    
+}
 /* footer */
 
 footer{
