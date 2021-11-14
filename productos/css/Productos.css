@@ -13,7 +13,6 @@ body{
 
 /*barra de informacion*/
 
-
 .top-header{
   background: #6d8388;
   width: 100%;
@@ -28,6 +27,7 @@ body{
   font-family: 'Lato', sans-serif;
  margin-left:  10px;
 }
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -37,6 +37,7 @@ body{
 }
 
 /* Header */
+
 header {
 background: #C9D6FF;  
 background: -webkit-linear-gradient(to right, #e2e2e285, #c9d6ff7e), url(../../fotografias/header3.jpg) ;  
@@ -48,12 +49,10 @@ width: 100%;
 height: 600px;
 }
 
-
 nav{
 text-align: right;
 padding: 5vh, 5vh 0 0;
 font-family: 'lato';
-
 }
 
 nav > a{
@@ -99,6 +98,7 @@ font-family: 'lato';
 }
 
 /*Productos*/
+
   .cards{
     display: flex;
     flex-wrap: wrap;
@@ -122,6 +122,7 @@ font-family: 'lato';
      padding: 0 0 2rem 0;
      position: relative;
 }
+
 .card_text {
  overflow: hidden;
  -webkit-box-orient: vertical;
@@ -139,6 +140,7 @@ font-family: 'lato';
 .card_image {
  max-height: 250px;
 }
+
 .card_content {
   padding: 1rem;
 }
@@ -190,6 +192,7 @@ color: #555;
     width: 33.3333%;
   }
 }
+
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;
@@ -215,7 +218,6 @@ color: #555;
   font-feature-settings: "liga";
 }
 
-
 /*boton confirmar*/
 
 button {
@@ -229,6 +231,7 @@ button {
 	border-radius: 2rem;
 	transition: all .15s linear;
 }
+
 button:hover {
 	background: #000;
 	color: white;
@@ -275,4 +278,3 @@ footer{
     margin: 20px 0 0 0;
     color: #f7f4f0;
 }
-

@@ -6,6 +6,7 @@
 }
 
 /*nav*/
+
 nav{
     text-align: right;
     padding: 5vh, 5vh 0 0;
@@ -37,7 +38,6 @@ header {
     width: 100%;
     height: 600px;
 }
-
 
  header .textos-header{
     display: flex;
@@ -86,9 +86,6 @@ p { padding: 0 0 0 20px; }
      color: #999;
      text-align: center;
      margin-bottom: 25px; }
-
-
-
 
 /* footer */
 
